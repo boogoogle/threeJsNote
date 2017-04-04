@@ -32,7 +32,7 @@ console.log(ab,'abbbb')
 
 camera.position.set(0,0,100)
 camera.lookAt(b)
-var material_line = new THREE.LineBasicMaterial( {color: green});
+var material_line = new THREE.LineBasicMaterial({color: 'red'});
 
 function render() {
 	requestAnimationFrame( render );
