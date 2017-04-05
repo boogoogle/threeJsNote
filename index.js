@@ -1,3 +1,7 @@
+/**
+ * [创建一个简单的场景]
+ * @type {THREE}
+ */
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 // threeJs 里面有很多不同的camera,这里选择的是PerspectiveCamera
